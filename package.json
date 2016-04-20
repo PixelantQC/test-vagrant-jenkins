@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server",
     "test": "mocha",
-    "ci-test": "istanbul cover mocha -- -R tap  \"test/*.js\" > test.tap && istanbul report clover"
+    "ci-test": "istanbul cover _mocha -- -R tap  \"test/*.js\" > test.tap && istanbul report clover"
   },
   "license": "ISC",
   "dependencies": {
